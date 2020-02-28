@@ -1,0 +1,70 @@
+.resumo {
+    background: gray;
+    width: 20%;
+    position: fixed;
+    height: 100vh;
+    color: white;
+    font-family: 'Spartan';
+    padding-top: 5%;
+}
+
+.foto {
+    width: 75%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 5%;
+    opacity: 0.9;
+}
+
+.nome {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nome, .descricao-simples, .contatos {
+    line-height: 1.5em;
+    margin: 1.25rem;
+}
+
+.contatos {
+    line-height: 1.5em;
+}
+
+.contatos-titulo {
+    font-size: 1.2em;
+    padding-top: 2em;
+    padding-bottom: 0.7em;
+    font-weight: bold;
+}
+
+.conteudo {
+    width: 70%;
+    margin-left: 20%;
+    font-family: 'Spartan';
+    padding: 5%;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.perfil-titulo, .experiencia-titulo, .atualmente-titulo, .habilidades-titulo {
+    font-size: 1.5em;
+    margin: 1.5em 0 1em;
+}
+
+.nome-experiencia {
+    font-size: 1.2em;
+    padding: 0.8em 0 0.3em;
+    font-weight: bold;
+    color: #333333
+}
+
+.item-experiencia:before {
+    content: "● ";
+}
+
+.habilidades-lista {
+    float: left;
+    width: 50%;
+}
